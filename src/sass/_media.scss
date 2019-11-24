@@ -1,0 +1,124 @@
+@media (max-width: 991px) {
+    .container {
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    .promo {
+        padding-bottom: 50px;
+        &__wrapper {
+            align-items: center;
+            margin-top: 50px;
+        }
+    }
+    .advantages{
+        &__item {
+            width: 215px;
+        }
+    }
+    .carousel{
+        &__inner {
+            max-width: 80%;
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .catalog{
+        &__content {
+            justify-content: space-around;
+        }
+    }
+}
+@media (max-width: 767px) {
+    .header {
+        &__logo {
+            width: 200px;
+        }
+        &__official {
+            span {
+                font-size: 12px;
+            }
+        }
+        &__phone {
+            font-size: 16px;
+        }
+    }
+    .advantages {
+        &__items {
+            flex-direction: column;
+        }
+        &__item {
+            width: 80%;  
+            margin: 0 auto;
+        }
+    }
+    .catalog{
+        &__tabs {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__tab {
+            margin-bottom: 15px;
+            width: 80%;
+        }
+    }
+}
+@media (max-width: 575px) {
+    // .container {
+    //     padding: 0;
+    // }
+    .header {
+        flex-direction: column;
+        &__logo {
+            width: 80%;
+        }
+        &__official {
+            margin: 15px 0;
+        }
+    }
+    .promo {
+        &__wrapper {
+            margin-top: 20px;
+        }
+        &__header {
+            font-size: 20px;
+        }
+        &__subheader {
+            font-size: 14px;
+            margin-top: 0;
+        }
+        &__icons {
+            margin-top: 20px;
+            flex-direction: column;
+        }
+        &__icon {
+            margin: 20px auto 0;
+        }
+    }
+    .reviews {
+        &__item{
+            flex-direction: column;
+            align-items: center;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+            &-img{
+                margin: 0 0 20px;
+            }
+            &-name{
+                text-align: center;
+            }
+        }
+    }
+    .advantages {
+        &__items {
+            margin-top: 20px;
+        }
+        &__item {
+            width: 80%;  
+            margin: 20px auto 0;
+        }
+        &__item-title {
+            margin: 10px 0;
+        }
+    }
+}

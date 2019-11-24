@@ -1,0 +1,33 @@
+.reviews {
+    &__block {
+        padding: 70px 0;
+    }
+    &__item {
+        display: flex;
+        border-bottom: 1px solid #f6f6f6;
+        padding-bottom: 50px;
+        margin-bottom: 50px;
+        &:last-child{
+            border-bottom: 0;
+            padding-bottom: 0;
+            margin-bottom: 0;
+        }
+        &-img {
+            margin-right: 60px ;
+        }
+        &-name {
+            font-size: 18px;
+            font-weight: 700;
+            small {
+                font-size: 14px;
+                font-weight: 300;
+                display: block;
+                margin-bottom: 10px;
+            }
+        }
+        &-text {
+            font-weight: 300;
+            font-size: 16px;
+        }
+    }
+}
